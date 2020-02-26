@@ -1,45 +1,111 @@
 /*styles for my resume*/
 BODY {
   font-family:'Open Sans', arial, sans-serif;
-  font-size: 1 em;
+  font-size: 1em;
   color:#444;
-  font-weight: 400;
+
 }
 
-h1 {
-  font size: 3 em;
+#container{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
+}
+
+
+#title{
+  font-weight: 600px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#name{
+  font-size: 3em;
   color:#33485e;
   text-transform: uppercase;
   text-align: center;
-}
-strong {
-  font-size: 1.5 em;
-  text-transform:uppercase;
-  color: #33;
-}
-
-H2 {
-font-size: 1.5 em;
-text-transform: uppercase;
-background: #33485e;
-color: #fff;
+  border-bottom:1px soild #33485e;
+  width:60%;
+  min-width:300px;
+  margin: 0 auto;
 }
 
-H3 {
-  font-weight: : 600;
-  font-size: 1.5 em;
-}
-
-H4 {
-  font-size: 1.5 em;
-  font-weight: 400;
+.sectionheader{
+  font-size: 1em;
+  text-transform: uppercase;
+  background: #33485e;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
 
 }
 
-H5 {
-font-size: 1 em;
-font-weight: 400;
-font-style: italic;
+.jobtitle{
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.organization{
+  font-size: 1.25em;
+
+}
+
+.date{
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 2px;
+}
+
+.description{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.menu li{
+  display: inline;
+}
+
+#degrees{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* # controls skills secytion */
+#do{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.class{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 ul{
