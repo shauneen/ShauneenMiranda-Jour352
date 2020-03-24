@@ -13,14 +13,8 @@
 }
 
 
-#byline {
+#container {
   font-size:14em;
   font-style:italic;
   font-family: helvetica;
-}
-
-#date {
-  font-size:14em;
-  font-style:italic;
-  font-family:helvetica;
 }
