@@ -39,13 +39,15 @@ BODY {
 .sectionheader{
   font-size: 1em;
   text-transform: uppercase;
-  background: #33485e;
-  color: #fff;
-  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: inherit;
+  background: #000;
+  color: #ffffff;
+  margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 0px;
   margin-right: 0px;
-  width: 70%;
+  width: 90%;
   min-width: 300px;
 
 }
@@ -88,7 +90,7 @@ BODY {
   margin-right: 0px;
 }
 
-/* # controls skills secytion */
+/* # controls skills section */
 #do{
   margin-top: 5px;
   margin-bottom: 0px;
