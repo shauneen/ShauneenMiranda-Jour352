@@ -1,9 +1,45 @@
 /*styles for my resume*/
 BODY {
-  font-family:'Open Sans', arial, sans-serif;
+  font-family:'open-sans', arial, 'sans-serif';
   font-size: 1em;
+  font-style: bold;
   color:#444;
+  background-color:#f0ebfb;
 
+}
+
+.img-container {
+  text-align: justify;
+  display: block;
+  border-radius: 50%;
+}
+
+.col {
+  display: inline;
+  border: 1px solid #000;
+  font-style: italic;
+}
+
+.col1 {
+  text-align:left;
+}
+
+.col2 {
+  text-align: left;
+  color:#fff;
+}
+
+
+#navbar {
+  text-align: left;
+  font-style: bold;
+  color:#000;
+}
+
+#navbarSupportedContent {
+  text-align: left;
+  font-style: bold;
+  color: #000;
 }
 
 #container{
@@ -25,7 +61,23 @@ BODY {
 
 /*this is the css for my name*/
 
-#name{
+#mini-title {
+  text-align: center;
+  margin-left: 210px;
+  margin-bottom: 20px;
+  margin-top: -150px;
+  font-size:20px;
+  font-style: italic;
+  border: 2px solid #000;
+  color:#000;
+  text-transform: inherit;
+  border-bottom:1px soild #33485e;
+  width:63%;
+  min-width:100px;
+}
+
+
+#name {
   font-size: 3em;
   color:#33485e;
   text-transform: uppercase;
@@ -36,13 +88,12 @@ BODY {
   margin: 0 auto;
 }
 
-.sectionheader{
+.sectionheader {
   font-size: 1em;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: inherit;
   background: #000;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 0px;
@@ -74,9 +125,12 @@ BODY {
 }
 
 .menu {
-  margin: 0px;
+  margin: 10px;
+  font-size: 1em;
   padding: 0px;
   text-align: center;
+  color:#000;
+
 }
 
 .menu li{
