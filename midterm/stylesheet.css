@@ -1,23 +1,30 @@
-/*styles for the midterm that include the headings and container*/
+/*styles for the midterm that include the headings and container, along with other elements*/
 .container {
   font-family: helvetica, arial,'sans-serif';
   font-size: 12px;
   margin: 0 auto;
   width: 900px;
+  padding:
 }
 
 figure {
 text-align: center;
 }
+
+figcaption {
+  font-size: 12px;
+  font-weight: bold;
+}
+
 h1 {
-  font-family: helvetica, arial,'sans-serif';
+  font-family: helvetica,'sans-serif';
   font-size: 3em;
   text-align: center;
   border: 1px solid #000;
 }
 
 h2 {
-  font-family: helvetica, 'sans-serif';
+  font-family: helvetica,'sans-serif';
   font-size: 20px;
 
 }
@@ -48,6 +55,8 @@ h6 {
   border: 1px solid #000;
   text-align: center;
 }
+
+
 
 #jim {
   font-family: helvetica, 'sans-serif';
