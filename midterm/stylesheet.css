@@ -1,0 +1,84 @@
+/*styles for the midterm that include the headings and container*/
+.container {
+  font-family: helvetica, arial,'sans-serif';
+  font-size: 12px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+figure {
+text-align: center;
+}
+h1 {
+  font-family: helvetica, arial,'sans-serif';
+  font-size: 3em;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+h2 {
+  font-family: helvetica, 'sans-serif';
+  font-size: 20px;
+
+}
+
+
+h3 {
+  font-family: helvetica,'sans-serif';
+  font-size: 15px;
+}
+
+h4 {
+  font-family:helvetica, 'sans-serif';
+  font-size: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+h5 {
+  font-family: helvetica, 'sans-serif';
+  font-size: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+h6 {
+  font-family: helvetica, 'sans-serif';
+  font-size: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+#jim {
+  font-family: helvetica, 'sans-serif';
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+#kathy {
+  font-family: helvetica, 'sans-serif';
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+#jen {
+  font-family: helvetica, 'sans-serif';
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+
+blockquote {
+font: 18px/30px normal helvetica, 'sans-serif';
+font-weight: bold;
+margin-top: 15px;
+margin-bottom: 15px;
+color: red;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
+display: block;
+}
