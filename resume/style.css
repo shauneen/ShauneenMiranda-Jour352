@@ -21,7 +21,10 @@ BODY {
 }
 
 .col1 {
-  text-align:left;
+  text-align:center;
+  border: 1px solid #000;
+  font-style: normal;
+  text-align: cent;
 }
 
 .col2 {
@@ -32,7 +35,7 @@ BODY {
 
 #navbar {
   text-align: left;
-  font-style: bold;
+  font-weight: normal;
   color:#000;
 }
 
@@ -96,12 +99,13 @@ BODY {
   color: #fff;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
   width: 90%;
   min-width: 300px;
 
 }
+
 
 .jobtitle{
   font-weight: 600;
@@ -126,11 +130,11 @@ BODY {
 
 .menu {
   margin: 10px;
+  font-weight: bold;
   font-size: 1em;
   padding: 0px;
   text-align: center;
   color:#000;
-
 }
 
 .menu li{
