@@ -2,29 +2,52 @@
 BODY {
   font-family:'open-sans', arial, 'sans-serif';
   font-size: 1em;
-  font-style: bold;
   color:#444;
   background-color:#f0ebfb;
 
 }
 
+.container::before::after{
+  right: 0;
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.5em;
+  top: 50%;
+  margin-right: : 30px;
+  display: block;
+  width: 30%;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
 .img-container {
   text-align: justify;
   display: block;
   border-radius: 50%;
+  margin-left: 12px;
 }
 
 .col {
   display: inline;
-  border: 1px solid #000;
+  font-size: 25px;
+  font-weight: bold;
   font-style: italic;
+  border-radius: 25%
 }
 
 .col1 {
   text-align:center;
-  border: 1px solid #000;
+  border: 2px solid #000;
   font-style: normal;
-  text-align: cent;
+  text-align: center;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 1.5em 0;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 .col2 {
@@ -34,9 +57,10 @@ BODY {
 
 
 #navbar {
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   color:#000;
+  font-size: 20px;
 }
 
 #navbarSupportedContent {
@@ -92,18 +116,23 @@ BODY {
 }
 
 .sectionheader {
-  font-size: 1em;
-  text-transform: uppercase;
-  text-align: center;
-  background: #000;
-  color: #fff;
+  font-size: 2em;
+  font-family: helvetica;
+  text-transform: capitalize;
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  width: 90%;
+  width: 100%;
   min-width: 300px;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 1.5em 0;
+  background: #F8F3FB;
+  text-align: center;
+  font-weight: bold;
+  border: 0px solid #000;
 
+}
 }
 
 
@@ -131,14 +160,14 @@ BODY {
 .menu {
   margin: 10px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 25px;
   padding: 0px;
   text-align: center;
-  color:#000;
 }
 
 .menu li{
   display: inline;
+  font-size: 15px;
 }
 
 #degrees{
@@ -173,3 +202,15 @@ BODY {
 ul{
   font-size: 1em;
 }
+
+f8f8f8
+display: inline;
+border: 2px solid #000;
+font-style: italic;
+border-radius: 25%
+border-bottom: 2px solid #f1f1f1;
+padding: 1.5em 0;
+background: #F8F3FB;
+font-weight: bold;
+text-align: center;
+border: 1px solid #000;
