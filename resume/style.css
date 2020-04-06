@@ -1,28 +1,25 @@
 /*styles for my resume*/
+
+
 BODY {
   font-family:'open-sans', arial, 'sans-serif';
   font-size: 1em;
   color:#444;
   background-color:#f0ebfb;
-
 }
 
-.container::before::after{
-  right: 0;
-  position: absolute;
+.h3{
   font-weight: bold;
   text-align: center;
   font-size: 0.5em;
   top: 50%;
-  margin-right: : 30px;
+  margin-right: 10px;
+  margin-left: 300px;
   display: block;
   width: 30%;
-  border-bottom: 5px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 5px solid;
+  border top: 5px solid;
 }
-
-
-
-
 
 .img-container {
   text-align: justify;
@@ -46,15 +43,8 @@ BODY {
   text-align: center;
   border-bottom: 2px solid #f1f1f1;
   padding: 1.5em 0;
-  text-align: center;
   border: 1px solid #000;
 }
-
-.col2 {
-  text-align: left;
-  color:#fff;
-}
-
 
 #navbar {
   text-align: center;
@@ -62,31 +52,6 @@ BODY {
   color:#000;
   font-size: 20px;
 }
-
-#navbarSupportedContent {
-  text-align: left;
-  font-style: bold;
-  color: #000;
-}
-
-#container{
-  width:100%;
-  max-width:1200px;
-  margin:0 auto;
-  padding-bottom: 50px;
-}
-
-
-#title{
-  font-weight: 600px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-/*this is the css for my name*/
 
 #mini-title {
   text-align: center;
@@ -101,18 +66,6 @@ BODY {
   border-bottom:1px soild #33485e;
   width:63%;
   min-width:100px;
-}
-
-
-#name {
-  font-size: 3em;
-  color:#33485e;
-  text-transform: uppercase;
-  text-align: center;
-  border-bottom:1px soild #33485e;
-  width:60%;
-  min-width:300px;
-  margin: 0 auto;
 }
 
 .sectionheader {
@@ -131,37 +84,12 @@ BODY {
   text-align: center;
   font-weight: bold;
   border: 0px solid #000;
-
-}
-}
-
-
-.jobtitle{
-  font-weight: 600;
-  font-size: 1em;
-}
-
-.organization{
-  font-size: 1em;
-
-}
-
-.date{
-  font-style: italic;
-  font-size: 1em;
-  margin-top: 2px;
-}
-
-.description{
-  margin-top:10px;
-  margin-bottom:10px;
 }
 
 .menu {
   margin: 10px;
   font-weight: bold;
   font-size: 25px;
-  padding: 0px;
   text-align: center;
 }
 
@@ -170,47 +98,7 @@ BODY {
   font-size: 15px;
 }
 
-#degrees{
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
 
-/* # controls skills section */
-#do{
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+@media screen and (max-width: 480px) {
+ /*Add CSS that only activates on screens less than 480x here*/
 }
-
-.class{
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
-.top{
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
-ul{
-  font-size: 1em;
-}
-
-f8f8f8
-display: inline;
-border: 2px solid #000;
-font-style: italic;
-border-radius: 25%
-border-bottom: 2px solid #f1f1f1;
-padding: 1.5em 0;
-background: #F8F3FB;
-font-weight: bold;
-text-align: center;
-border: 1px solid #000;
