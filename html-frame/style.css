@@ -7,6 +7,22 @@
   font-family:'Montserrat', sans-serif;
 }
 
+/* Top hat */
+.nav-logo {
+  color: #fff;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+
+/* Splash area */
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
 .byline {
   font-size: 1em;
   text-transform: uppercase;
@@ -53,4 +69,22 @@ footer {
   background: #000000;
   text-align: center;
   color: #FFFFFF;
+}
+
+.purple {
+  color: #4B0082;
+}
+
+
+
+/*media queries*/
+
+@media (max-width: 550px) {
+  p {
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+  .chapter-heaed {
+    font-size: 1.25em;
+  }
 }
