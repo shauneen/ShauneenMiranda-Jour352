@@ -28,6 +28,14 @@
   font-weight: normal;
 }
 
+.italic {
+font-size: 1.2em;
+color: #9932CC;
+font-family: 'PT Sans';
+font-style: italic;
+font-weight: normal;
+}
+
 /* Splash area */
 
 .hero-container {
@@ -90,6 +98,15 @@ font-size: .25em;
   text-align: center;
 }
 
+.subhead::first-letter {
+  initial-letter: 2;
+  font-size: 6em;
+  float: left;
+  margin-top: 0.1em;
+  color: #9932CC;
+  font-family: 'PT Sans';
+  font-weight: normal;
+}
 p {
   font-family:'PT Sans',
   line-height: 180%;
