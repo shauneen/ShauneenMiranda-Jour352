@@ -9,9 +9,22 @@
 
 .byline {
   font-size: 3em;
-  color: #4B0082;
+  color: #fff;
   font-family: 'PT Sans';
   font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  min-width: 300px;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 1.5em 0;
+  opacity: .7;
+  background: #4B0082;
+  text-align: center;
+  border: 0px solid #000;
 }
 
 /* Top hat */
@@ -29,7 +42,7 @@
 }
 
 .italic {
-font-size: 1.2em;
+font-size: 1em;
 color: #9932CC;
 font-family: 'PT Sans';
 font-style: italic;
@@ -120,8 +133,13 @@ h1 {
   font-family:'PT sans', sans-serif;
 }
 
+.image {
+  text-align: center;
+}
+
+
 .lyrics {
-  font-size: .7em;
+  font-size: .9em;
   font-family:'PT Sans',
   font-weight: normal;
   text-align: center;
