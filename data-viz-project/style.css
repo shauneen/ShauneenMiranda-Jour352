@@ -47,11 +47,6 @@
 }
 
 
-
-
-
-
-
 /* Top hat */
 .nav-logo {
   color: #fff;
@@ -192,8 +187,14 @@ font-size: .25em;
 }
 .figcaption1 {
   text-align: center;
-  padding: 8px 4px;
+  font-size: .9em;
+  font-family:'PT Sans',
+  font-weight: normal;
+  text-align: center;
+  color: #4B0082;
 }
+
+
 
 
 .byline {

@@ -1,1 +1,10 @@
-e
+<p class="quote-attribution"> -Mac Miller</p>
+
+
+.quote-attribution {
+  font-size: .5em;
+  font-family:'PT Sans',
+  font-weight: 100;
+  text-align: left;
+  color: #4B0082;
+}
