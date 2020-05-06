@@ -59,9 +59,10 @@
   border: 0px solid #000;
 }
 
+/*main styles for text*/
 
 .container {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #4B0082;
   font-family: 'PT Sans';
   font-weight: normal;
@@ -123,9 +124,9 @@ figcaption {
 
 /*photo gallery*/
 
-.gallery{
+.gallery {
   display: flex;
-  width: 900px;
+  max-width: 900px;
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #E6E6FA;
@@ -167,7 +168,7 @@ p {
 }
 
 h1 {
-  font-size: 1.9em;
+  font-size: 1.7em;
   font-weight: 700;
   text-align: left;
   color:#4B0082;
@@ -182,7 +183,7 @@ h1 {
 /* styles for the lyrics*/
 
 .lyrics {
-  font-size: 1em;
+  font-size: .8em;
   font-family:'PT Sans',
   font-weight: normal;
   text-align: center;
@@ -210,7 +211,7 @@ h1 {
 	margin-bottom: -1.125em;
 }
 
-/*footer at the end*/
+/*footer styles*/
 
 footer {
   text-align: center;
