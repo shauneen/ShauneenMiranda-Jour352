@@ -189,11 +189,14 @@ h1 {
   text-align: center;
   color: #4B0082;
 }
+
 /* bubble around the lyrics*/
+
 .speech-bubble {
 	position: relative;
 	background: #E6E6FA;
 	border-radius: .4em;
+  max-width: inherit;
 }
 
 .speech-bubble:after {
@@ -246,5 +249,9 @@ footer {
   .gallery {
     padding left: 10px;
     padding right: 10px;
+  }
+  .speech-bubble {
+    padding left: 20px;
+    padding right: 20px;
   }
 }
