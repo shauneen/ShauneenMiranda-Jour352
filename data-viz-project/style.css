@@ -7,6 +7,13 @@
   font-family:'PT Sans', sans-serif;
 }
 
+.navbar {
+  color: #4B0082;
+  font-family:'PT Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+
 .byline {
   font-size: 40px;
   color: #fff;
@@ -56,14 +63,14 @@
 
 .container {
   font-size: 1.2em;
-  color: #9932CC;
+  color: #4B0082;
   font-family: 'PT Sans';
   font-weight: normal;
 }
 
 .italic {
 font-size: 1em;
-color: #9932CC;
+color: #4B0082;
 font-family: 'PT Sans';
 font-style: italic;
 font-weight: normal;
@@ -136,6 +143,7 @@ font-size: .25em;
   border-bottom: 1px solid #4B0082;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-width: medium;
 }
 
 
@@ -182,7 +190,7 @@ font-size: .25em;
   box-sizing: border-box;
   background-color: #fff;
 }
-.figure1 img{
+.figure1 img {
   width: 100%;
 }
 .figcaption1 {
@@ -193,8 +201,6 @@ font-size: .25em;
   text-align: center;
   color: #4B0082;
 }
-
-
 
 
 .byline {
@@ -209,7 +215,7 @@ font-size: .25em;
   font-size: 6em;
   float: left;
   margin-top: 0.1em;
-  color: #9932CC;
+  color: #4B0082;
   font-family: 'PT Sans';
   font-weight: normal;
 }
@@ -219,21 +225,48 @@ p {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.9em;
   font-weight: 700;
   text-align: left;
   color:#4B0082;
   font-family:'PT sans', sans-serif;
+  padding: 40px 0 15px 0;
+  border-top: 1px solid #4B0082;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-width: medium;
 }
 
 
 .lyrics {
-  font-size: .9em;
+  font-size: 1em;
   font-family:'PT Sans',
   font-weight: normal;
   text-align: center;
   color: #4B0082;
 }
+/* bubble around the lyrics*/
+.speech-bubble {
+	position: relative;
+	background: #E6E6FA;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 1.125em solid transparent;
+	border-top-color: #E6E6FA;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -0.562em;
+	margin-bottom: -1.125em;
+}
+
 
 .col {
   text-align: center;
@@ -275,5 +308,9 @@ footer {
   }
   .hero-head {
     font-size: 1.5em;
+  }
+  .gallery {
+    padding left: 10px;
+    padding right: 10px;
   }
 }
