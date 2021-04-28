@@ -1,4 +1,4 @@
-/* styles for my research project*/
+/* styles for my decades research project*/
 
 /* heading styles*/
 .headline {
@@ -28,12 +28,18 @@
   border: 0px solid #000;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 h1 {
   font-size: 40px;
-  color: #060606;
+  color: #000000;
   font-family: 'Source Serif Pro', serif;
   font-weight: bold;
-  text-transform: capitalize;
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 20px;
@@ -42,98 +48,78 @@ h1 {
   text-align: left;
 
 }
-/*byline for my name*/
 
-.byline {
-  font-size: .7em;
-  text-transform: uppercase;
-  color: #000000;
-  font-family: 'Source Serif Pro', serif;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 100%;
-  min-width: 300px;
-  border-bottom: 2px solid #f1f1f1;
-  padding: 1.5em 0;
-  opacity: .7;
-  background: #FFB6C1;
-  border: 0px solid #000;
-}
 
 .container {
   font-size: 1.1em;
-  color: #060606;
+  color: #000000;
   font-family:'Source Serif Pro', serif;
   font-weight: normal;
+}
 
-  figcaption {
-
-      font-size: .7em;
-      font-family:'PT Sans',
-      font-weight: normal;
-      text-align: center;
-      color: #4B0082;
-  }
+header {
+  overflow: hidden;
+}
+header img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
 .figure {
   text-align: center;
+  align-content: center;
   font-size: 20em;
-  color: #060606;
+  color: #000000;
   font-family:'Source Serif Pro', serif;
   font-style: italic;
   font-weight: bold;
   }
 
-}
 
+  .subhead::first-letter {
+    initial-letter: 2;
+    font-size: 6em;
+    float: left;
+    margin-top: 0.1em;
+    color: #000000;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: normal;
+  }
 
-/*photo gallery*/
-
-.gallery {
-  display: flex;
-  max-width: 2000px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: #FFB6C1;
-  border-color: #FFB6C1;
-  border-width: thick;
-}
-
-.figure1{
-  width: 200px;
-  margin: 8px 0;
-  border: 2px solid #fff;
-  padding: 8px;
-  box-sizing: border-box;
-  background-color: #fff;
-}
-.figure1 img {
-  width: 100%;
-}
-.figcaption1 {
-  text-align: center;
-  font-size: .9em;
-  font-family:'PT Sans',
-  color: #FFB6C1;
-}
 
   .italic {
-  font-size: .5em;
-  color: #060606;
+  font-size: .7em;
+  color: #000000;
   font-family:'Source Serif Pro', serif;
   font-style: italic;
   font-weight: bold;
+  text-align: center;
+  }
+
+    .italic1 {
+    font-size: 1,1em;
+    color: #000000;
+    font-family:'Source Serif Pro', serif;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    }
+
+
+  #sub {
+    font-size: .1em;
+    color: #060606;
+    font-family:'Source Serif Pro', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
   }
   /* large quote at beginning */
 
   .quote {
   font-family: 'Source Serif Pro', serif;
-  color: #060606;
-  font-size: 1em;
+  color: #FF0000;
+  font-size: 1.6em;
   font-weight: 700;
   text-align: center;
   padding: 15px 0 15px 0;
@@ -147,31 +133,22 @@ h1 {
 
 /*footer styles*/
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
-footer {
-  text-align: center;
-  font-family: 'Source Serif Pro', serif;
-  line-height: 180%;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 100%;
-  min-width: 300px;
-  padding: 2em 0;
-  background: #000000;
-  text-align: center;
-  color: #FFFFFF;
-}
 
+footer {
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    line-height: 180%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    min-width: 300px;
+    padding: 2em 0;
+    background: #000000;
+    text-align: center;
+    color: #FFFFFF;
+}
 
   /*styles for hero image*/
 
